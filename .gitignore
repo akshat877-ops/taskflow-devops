@@ -1,0 +1,25 @@
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.ppk
+id_rsa
+id_ed25519
+.ssh/
+
+# Application dependencies and builds
+node_modules/
+dist/
+coverage/
+
+# Terraform generated files
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Logs
+*.log
